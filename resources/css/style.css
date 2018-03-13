@@ -1,0 +1,456 @@
+/* Universal Sytlestest  */
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+html {
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 4rem;
+  color: #282828;
+}
+
+.grey-bg {
+  background-color: #E8E8E8;
+}
+
+.grey-bg-2 {
+  background-color: #E8E8E8;
+  margin-top: 0px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+/* Navigaton */
+
+.test {
+  height: 100px;
+  position: fixed;
+  z-index: 1;
+  background: #fff;
+  opacity: .95;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #D3D3D3;
+  box-shadow: 0px 0px 20px #DCDCDC;
+}
+
+.container-2 {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-grow: 1;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav li {
+  padding-left: 22px;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: orange !important;
+  transition-property: color;
+  transition-duration: 600ms;
+}
+
+nav a:visited {
+  color: #282828;
+}
+
+nav a:active {
+  color: orange;
+}
+
+.logo span {
+  font-weight: 900;
+  font-size: 1rem;
+  letter-spacing: .3rem;
+  margin-left: .8rem;
+}
+
+.logo span:hover {
+  color: orange !important;
+  transition-property: color;
+  transition-duration: 600ms;
+}
+
+
+/* Feature */
+
+.feature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.feature img{
+  width: 60%;
+  height: auto;
+  padding-right: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.feature-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  background-color: orange;
+  padding: 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: .5s;
+  cursor: pointer;
+  color: white;
+  font-size: 1.15rem;
+  margin-right: auto;
+}
+
+.button1 {
+  background-color: #E8E8E8;
+  color: white !important;
+  border: 2px solid orange;
+}
+
+.button1:hover {
+  background-color: orange;
+  color: black !important;
+}
+
+.feature-text h4 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  line-height: 2.5rem;
+}
+
+
+/* Practicing */
+
+.practicing-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.practicing-big {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 64px;
+}
+
+.practicing-big img {
+  margin-top: 64px;
+  width: 720px;
+  height: auto;
+  margin-right: 32px;
+}
+
+.practicing-big h1 {
+  margin-top: 32px;
+}
+
+.practicing-big h4 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  width: 600px;
+}
+
+.practicing-small {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  width: 400px;
+}
+
+.practicing-small-two {
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  width: 400px;
+}
+
+.practicing-one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 400px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #D3D3D3;
+}
+
+.practicing-one img {
+  width: 150px;
+  height: 150px;
+  margin: 12px;
+}
+
+.practicing-one-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+
+.practicing-one-text p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.practicing-one-text span {
+  color: #0074D9;
+}
+
+.practicing-column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 64px;
+}
+
+.practicing-two {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 400px;
+  background-color: #D3D3D3;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #D3D3D3;
+}
+
+.practicing-two img {
+  width: 150px;
+  height: 150px;
+  margin: 12px;
+}
+
+.practicing-two-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+
+.practicing-two-text p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+
+/* Learning */
+
+.learning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.learning h1 {
+  margin-bottom: 32px;
+  margin-top: 64px;
+}
+
+.learning-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.learning-individual {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 1rem;
+  width: 350px;
+}
+
+.learning-individual span {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 20px;
+}
+
+.learning-individual h4{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.learning-individual p {
+  margin-bottom: 24px;
+  margin-left: 20px;
+  width: 300px;
+  line-height: 1.5rem;
+}
+
+.learning-individual img {
+  align-items: center;
+  width: 350px;
+  height: auto;
+}
+
+
+/* Thesis Exhibit */
+
+.thesis {
+  display: flex;
+  flex-direction: column;
+}
+
+.thesis h1 {
+  margin-top: 64px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.thesis h3 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.thesis p {
+  width: 650px;
+}
+
+.thesis-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.thesis-video {
+  display: flex;
+  flex-direction: column;
+}
+
+.thesis-video p {
+  line-height: 1.8rem;
+}
+
+.thesis-small {
+  display: flex;
+  flex-direction: column;
+  margin-top: ;
+  margin-left: 32px;
+}
+
+.thesis-two {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 400px;
+  background-color: #D3D3D3;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #D3D3D3;
+}
+
+.thesis-one-text p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  width: 200px;
+  line-height: 1.5rem;
+}
+
+.thesis-one-text h4 {
+  margin-left: 12px;
+}
+
+.thesis-one-text span {
+  margin-left: 16px;
+}
+
+.thesis-two img {
+  width: 150px;
+  height: 150px;
+  margin: 12px;
+}
+
+.thesis-three {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 400px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #D3D3D3;
+  margin-top: 32px;
+}
+
+.thesis-three img {
+  width: 150px;
+  height: 150px;
+  margin: 12px;
+}
+
+
+/* Footer */
+
+.footer-container {
+  width: 100%;
+  background-color: #D3D3D3;
+  margin-top: 50px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  flex-grow: 1;
+}
+
+.footer-row {
+  display: flex;
+  flex-grow: 1;
+}
+
+.footer-left {
+  text-align: left;
+  display: flex;
+  flex-grow: 1;
+}
+
+.footer-right {
+  text-align: right;
+  display: flex;
+}
+
+.footer-right p {
+  margin-left: 12px;
+}
